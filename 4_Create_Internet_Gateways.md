@@ -1,17 +1,17 @@
-# Create Internet Gateways
+# Setup Internet Gateways
 
 September 28, 2023
 
 By:  Annie V Lam - Kura Labs
 
-## Internet Gateways connects two different networks that uses different rules for communicating
+## Internet Gateways connect two different networks that use different rules for communicating
 
 ### Internet Gateways
 
 1.  Navigate to https://us-east-1.console.aws.amazon.com/vpc/home?region=us-east-1#Home:
 2.  Click "Internet gateways"
 3.  Click "Internet gateways"
-4.  Click the "Name tag" field and enter an name (e.g."kura-gateway")
+4.  Click the "Name tag" field and enter a name (e.g."kura-gateway")
 5.  Click "Create internet gateway"
 
 ### Attach the VPC to the Internet gateway
@@ -24,7 +24,7 @@ By:  Annie V Lam - Kura Labs
 ### Link your public subnet to a public route table
 13.  Click "Route tables"
 14.  Expand this column to see your VPC name
-15.  Select your the route table that is not private
+15.  Select your route table that is not private
 16.  Click "Routes"
 17.  Click "Edit routes"
 18.  Click "Add route"
@@ -44,7 +44,7 @@ By:  Annie V Lam - Kura Labs
 1.  Click "Routing Tables"
 2.  Select the route table
 3.  Select "Subnet associations"
-4.  Select "Edit subnet assocation"
+4.  Select "Edit subnet association"
 5.  Select the subnets that should be linked to this route table
-6.  
+   
 
